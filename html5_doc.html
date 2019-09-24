@@ -1,0 +1,222 @@
+<!doctype html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>HW 3 - a</title>
+    	<style>
+    		body,html {
+                padding: 0;
+                margin: 0;
+                background-color: #A9A9A9;
+            }
+    		header h1 {
+                text-align:center;
+    		    font-family: arial, helvetica;
+    		    font-size: 60px;
+                font-style: italic;
+    		}
+    		header {
+                background-color: #A9A9A9;
+		        color: #FFFFFF;
+                padding: 5px 40px;
+                width: 100%;
+                box-sizing: border-box;
+            }
+    		nav {
+                background-color: #FF80FF;
+                font-family: arial, helvetica;
+                padding: 10px 0;
+            }
+    		nav a {
+                color: #FFFFFF;
+                font-size: 25px;
+                text-decoration: none;
+            }
+    		nav ul {
+                list-style-type:none;
+                display: flex;
+                justify-content: space-around;
+            }
+    		nav ul li {
+                display: inline-block;
+            }
+            nav a {
+                color: #000000;
+            }
+            nav input[type=text] {
+                font-size: 15px;
+                width: 200px;
+                height: 25px;
+                outline: none;
+                border: none;
+            }
+            nav input[type=text]::placeholder {
+                padding-left: 3px;
+                color: #A9A9A9;
+                font-size: 15px;
+            }
+            nav input[type=submit] {
+                background-color: #333333;
+                color: #FFFFFF;
+                height: 27px;
+                width: 70px;
+                font-size: 15px;
+                margin-left: 5px;
+                border: none;
+                outline: none;
+            }
+            section {
+                margin-top: 10px;
+                background-color: #FFFFFF;
+                color: #000000;
+                padding-left: 0;
+                font-family: arial, helvetica;
+                font-size: 17px;
+                float:left;
+                width: 75%;
+            }
+            section h1 {
+                text-align: center;
+                font-size: 40px;
+                font-style: italic;
+            }
+            section h2 {
+                font-style: italic;
+                font-size: 30px;
+                padding-left: 1%;
+            }
+            section p {
+                padding-left: 1%;
+                padding-right: 5%;
+            }
+            aside {
+                margin-top: 10px;
+                margin-left: 10px;
+                background-color: #FF80FF;
+                color: #000000;
+                font-family: arial, helvetica;
+                float: right;
+                width: 24%;
+                height: 556px;
+            }
+            aside h1 {
+                text-align: center;
+                font-size: 40px;
+                font-style: italic;
+            }
+            aside a {
+                font-size: 17px;
+            }
+            aside li {
+                padding-bottom: 25px;
+                padding-left: 5%;
+                padding-right: 5%;
+            }
+            p.footer {
+                background-color: #FFFFFF;
+                color: #000000;
+                padding-left: 1%;
+                width: 100%;
+                margin-bottom: 0;
+                height: 40px;
+                font-family: arial, helvetica;
+            }
+            hr {
+                width: 100%;
+                height: 0.5px;
+                color: #A9A9A9;
+                border: none;
+                margin: 0 0;
+            }
+    	</style>
+    </head>
+    <body>
+    	<header>
+    	   <h1>Header</h1>
+    	</header>
+    	<nav>
+        	<ul>
+            	<li>
+                    <a href="#">HOME</a>
+                </li>
+            	<li>
+                    <a href="#">OUR TEAM</a>
+                </li>
+            	<li>
+                    <a href="#">PROJECTS</a>
+                </li>
+            	<li>
+                    <a href="#">CONTACT</a>
+                </li>
+            	<li>
+                	<form>
+                    	<input type='text' name='search' placeholder="Search query">
+                    	<input type = 'submit' value = "Go!">
+                	</form>
+            	</li>
+        	</ul>
+    	</nav>
+        <section>
+            <h1>Article Heading</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore.
+            </p>
+            <h2>subsection</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                <br /><br />
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco laboris nisi ut aliquip ex ea commodo consequat
+                irure dolor.
+            </p>
+            <h2>Another subsection</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                <br /><br />
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco laboris nisi ut aliquip ex ea commodo consequat
+                irure dolor.
+            </p>
+        </section>
+        <aside>
+            <h1>Related</h1>
+            <ul>
+                <li>
+                    <a href="#">Oh I do like to be beside the seaside</a>
+                </li>
+                <li>
+                    <a href="#">Oh I do like to be beside the seaside</a>
+                </li>
+                <li>
+                    <a href="#">Although in the North of England</a>
+                </li>
+                <li>
+                    <a href="#">It never stops raining</a>
+                </li>
+                <li>
+                    <a href="#">Oh well...</a>
+                </li>
+            </ul>
+        </aside>
+        <hr>
+        <p class="footer">
+            <br />
+            ©Copyright 2050 by nobody. All rights reversed.
+        </p>
+    </body>
+</html>
